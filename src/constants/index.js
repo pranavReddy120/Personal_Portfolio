@@ -1,5 +1,6 @@
 import {
     mobile,
+    Algo,
     backend,
     creator,
     web,
@@ -20,6 +21,10 @@ import {
     tesla,
     shopify,
     carrent,
+    cyber,
+    spam,
+    prophet,
+    swift,
     jobit,
     tripguide,
     threejs,
@@ -198,28 +203,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
+      name: "CyberCity",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -236,32 +220,11 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: cyber,
+      source_code_link: "https://github.com/pranavReddy120/RC_Aircraft",
     },
     {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Car Rent",
+      name: "Algorthmic Trader",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -278,9 +241,52 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: Algo,
+      source_code_link: "https://github.com/pranavReddy120/Algorithmic_Trading_Learning",
     },
+    {
+      name: "Spam Detector",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: spam,
+      source_code_link: "https://github.com/pranavReddy120/SMS_Spam_Detector",
+    },
+    {
+      name: "Sales Forecaster",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: prophet,
+      source_code_link: "https://github.com/pranavReddy120/Machine_Learning/tree/main/Forecasting_With_Facebook_Prophet",
+    },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };

@@ -27,13 +27,22 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import swift from "./swift.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Algo from "./Algo.png";
+import spam from "./spam.png";
+import cyber from "./cyber.png";
+import prophet from "./prophet.png";
 
 export {
   logo,
+  Algo, 
   backend,
   creator,
+  spam,
+  cyber,
+  prophet, 
   mobile,
   web,
   github,
@@ -57,6 +66,7 @@ export {
   starbucks,
   tesla,
   carrent,
+  swift,
   jobit,
   tripguide,
 };
