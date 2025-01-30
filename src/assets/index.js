@@ -34,6 +34,9 @@ import Algo from "./Algo.png";
 import spam from "./spam.png";
 import cyber from "./cyber.png";
 import prophet from "./prophet.png";
+import ferrari from "./ferrari.png"; 
+import plane from "./plane.png";
+import swift1 from "./swift1.png";
 
 export {
   logo,
@@ -43,6 +46,9 @@ export {
   spam,
   cyber,
   prophet, 
+  ferrari,
+  swift1,
+  plane, 
   mobile,
   web,
   github,

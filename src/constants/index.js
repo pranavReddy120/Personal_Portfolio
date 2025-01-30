@@ -25,6 +25,9 @@ import {
     spam,
     prophet,
     swift,
+    swift1, 
+    ferrari, 
+    plane, 
     jobit,
     tripguide,
     threejs,
@@ -205,7 +208,7 @@ import {
     {
       name: "CyberCity",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "2D platformer made with Godot. Players fight melee and ranged enemies in a futuristic landscape",
       tags: [
         {
           name: "react",
@@ -308,7 +311,7 @@ import {
       source_code_link: "https://github.com/pranavReddy120/Machine_Learning/tree/main/Forecasting_With_Facebook_Prophet",
     },
     {
-      name: "Sales Forecaster",
+      name: "Sales",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -328,6 +331,58 @@ import {
       image: prophet,
       source_code_link: "https://github.com/pranavReddy120/Machine_Learning/tree/main/Forecasting_With_Facebook_Prophet",
     },
+    {
+      name: "PyBank",
+      description:
+        "App with multi-card capabilities and biometric authentication, using Firebase cloud storage to manage data across all cards",
+      tags: [
+        {
+          name: "SwiftUI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "green-text-gradient",
+        },
+      ],
+      image: swift1,
+      source_code_link: "https://github.com/pranavReddy120/Banking_App",
+    },
+    {
+      name: "Car app",
+      description:
+        "Provides detailed information about car models for select brands, including MSRP, engine specs, and more.",
+      tags: [
+        {
+          name: "SwiftUI",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: ferrari,
+      source_code_link: "https://github.com/pranavReddy120/Car_App",
+    },
+    {
+      name: "Plane",
+      description:
+        "Designed custom RC plane from scratch equipped with functioning flight control systems, landing gear and navlights",
+      tags: [
+        {
+          name: "Arduino",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Fusion360",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: plane,
+      source_code_link: "https://github.com/pranavReddy120/RC_Aircraft",
+    },
+    
     
     
   ];
