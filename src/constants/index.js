@@ -405,7 +405,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Blender",
           color: "pink-text-gradient",
         },
       ],
