@@ -379,7 +379,7 @@ import {
       source_code_link: "https://github.com/pranavReddy120/Banking_App",
     },
     {
-      name: "Car app",
+      name: "Car Info",
       description:
         "Provides detailed information about car models for select brands, including MSRP, engine specs, and more.",
       tags: [
@@ -392,7 +392,7 @@ import {
       source_code_link: "https://github.com/pranavReddy120/Car_App",
     },
     {
-      name: "Plane",
+      name: "RC Airplane",
       description:
         "Designed custom RC plane from scratch equipped with functioning flight control systems, landing gear and navlights",
       tags: [
