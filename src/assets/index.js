@@ -37,10 +37,13 @@ import prophet from "./prophet.png";
 import ferrari from "./ferrari.png"; 
 import plane from "./plane.png";
 import swift1 from "./swift1.png";
+import stock from "./stock.png";
+import agent from "./agent.png";
 
 export {
   logo,
   Algo, 
+  agent,
   backend,
   creator,
   spam,
@@ -48,7 +51,8 @@ export {
   prophet, 
   ferrari,
   swift1,
-  plane, 
+  stock,
+  plane,
   mobile,
   web,
   github,

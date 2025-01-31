@@ -23,7 +23,9 @@ import {
     carrent,
     cyber,
     spam,
+    stock,
     prophet,
+    agent, 
     swift,
     swift1, 
     ferrari, 
@@ -211,125 +213,153 @@ import {
         "2D platformer made with Godot. Players fight melee and ranged enemies in a futuristic landscape",
       tags: [
         {
-          name: "react",
+          name: "Godot Engine",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "GDScript",
           color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
         },
       ],
       image: cyber,
-      source_code_link: "https://github.com/pranavReddy120/RC_Aircraft",
+      source_code_link: "https://github.com/pranavReddy120/CyberCityV3",
     },
     {
       name: "Algorthmic Trader",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This project explores algorithmic trading strategies by implementing technical indicators such as Bollinger Bands, Simple Moving Averages (SMA), and Exponential Moving Averages (EMA)",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Pandas",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "NumPy",
           color: "pink-text-gradient",
+        },
+        {
+          name: "hvPlot",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Finta",
+          color: "orange-text-gradient",
         },
       ],
       image: Algo,
       source_code_link: "https://github.com/pranavReddy120/Algorithmic_Trading_Learning",
     },
     {
-      name: "Spam Detector",
+      name: "SMS Spam Detector",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Detects spam messages using Sckit-learn for classifcation along with TfidfVectorizer pipeline. Simple front-end interface is made possible via Gradio integration",
       tags: [
         {
-          name: "nextjs",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Pandas",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Scikit-learn",
           color: "pink-text-gradient",
         },
+        {
+          name: "Gradio",
+          color: "yellow-text-gradient",
+        },
       ],
-      image: spam,
+      image: spam,  // Replace with the actual image for the project
       source_code_link: "https://github.com/pranavReddy120/SMS_Spam_Detector",
     },
     {
       name: "Sales Forecaster",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The model uses Facebook Prophet to analyze historical Google search trends and stock prices, identifying correlations between search spikes and price movements",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Pandas",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "NumPy",
           color: "pink-text-gradient",
+        },
+        {
+          name: "hvPlot",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Facebook Prophet",
+          color: "orange-text-gradient",
         },
       ],
       image: prophet,
       source_code_link: "https://github.com/pranavReddy120/Machine_Learning/tree/main/Forecasting_With_Facebook_Prophet",
     },
     {
-      name: "Sales Forecaster",
+      name: "LSTM Stock Predictor",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Two different deep learning RNN models to predict Bitcoin closing prices by utilizing FNG indicators and closing price windows. The models were trained with a 70/30 train-test split and MinMaxScaler for efficiency, and were evaluated based on loss metrics",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Pandas",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Sckit-learn",
           color: "pink-text-gradient",
         },
+        {
+          name: "hvPlot",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Tensorflow",
+          color: "orange-text-gradient",
+        },
       ],
-      image: prophet,
-      source_code_link: "https://github.com/pranavReddy120/Machine_Learning/tree/main/Forecasting_With_Facebook_Prophet",
+      image: stock,
+      source_code_link: "https://github.com/pranavReddy120/Machine_Learning/tree/main/Neural_Network_Deep_Learning",
     },
     {
-      name: "Sales",
+      name: "Weather AI-Agent",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Custom agent powered by language models and external APIs to provide real-time weather updates and fun facts about numbers by using tools like the LangChain, OpenWeatherMap and Numbers API ",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "LangChain",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "OpenWeatherMap",
           color: "pink-text-gradient",
         },
+        {
+          name: "Numbers API",
+          color: "yellow-text-gradient",
+        },
       ],
-      image: prophet,
-      source_code_link: "https://github.com/pranavReddy120/Machine_Learning/tree/main/Forecasting_With_Facebook_Prophet",
+      image: agent,
+      source_code_link: "https://github.com/pranavReddy120/Langchain_Learning/blob/main/ai_agents_intro.ipynb",
     },
     {
       name: "PyBank",
