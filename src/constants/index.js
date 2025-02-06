@@ -8,6 +8,9 @@ import {
     swift1, 
     ferrari, 
     plane, 
+    bbc,
+    cnn,
+    attrition,
   } from "../assets";
   
   export const navLinks = [
@@ -156,6 +159,47 @@ import {
       source_code_link: "https://github.com/pranavReddy120/Machine_Learning/tree/main/Neural_Network_Deep_Learning",
     },
     {
+      name: "Facial Classification",
+      description:
+        "Developed a CNN to classify facial images from the CMU Face Images dataset, achieving 88.5% accuracy by applying data augmentation, and training the model with categorical cross-entropy loss and Adam optimization.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Pandas",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Sckit-learn",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "NumPy",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Tensorflow",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Keras",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PIL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OneHotEncoding",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: cnn,
+      source_code_link: "https://github.com/pranavReddy120/Image_Processing_Practice/blob/main/building_cnn_from_scratch_solution.ipynb",
+    },
+    {
       name: "Weather AI-Agent",
       description:
         "Custom agent powered by language models and external APIs to provide real-time weather updates and fun facts about numbers by using tools like the LangChain, OpenWeatherMap and Numbers API ",
@@ -180,6 +224,62 @@ import {
       image: agent,
       source_code_link: "https://github.com/pranavReddy120/Langchain_Learning/blob/main/ai_agents_intro.ipynb",
     },
+    {
+      name: "BBC News Classifier",
+      description:
+        "This project uses NLP and Latent Dirichlet Allocation (LDA) to categorize BBC news articles into topics such as Entertainment, Sports, Business, Politics, and Technology by creating a document-term matrix.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Pandas",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Sckit-learn",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "LDA",
+          color: "yellow-text-gradient",
+        },
+        
+      ],
+      image: bbc,
+      source_code_link: "https://github.com/pranavReddy120/NLP_Learning/blob/main/BBC_news_LDA.ipynb",
+    },
+    {
+      name: "Employee Attrition Forecaster",
+      description:
+        "Scalable branching Neural Network for HR to predict employee attrition and department fit using feature selection, and OneHotEncoding. Shared input and hidden layers with output branches.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Pandas",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Sckit-learn",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "OneHotEncoding",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Tensorflow",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: attrition,
+      source_code_link: "https://github.com/pranavReddy120/Machine_Learning/blob/main/Branching_Neural_Net/attrition_solution.ipynb",
+    },
+    
     {
       name: "PyBank",
       description:

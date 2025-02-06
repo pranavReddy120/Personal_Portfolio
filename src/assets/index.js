@@ -15,10 +15,16 @@ import swift1 from "./swift1.png";
 import stock from "./stock.png";
 import agent from "./agent.png";
 import resume from "./resume.png";
+import bbc from "./bbc.png";
+import attrition from "./attrition.png";
+import cnn from "./cnn.png";
 
 export {
   logo,
-  Algo, 
+  Algo,
+  bbc, 
+  cnn, 
+  attrition, 
   agent,
   spam,
   cyber,

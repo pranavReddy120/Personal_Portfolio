@@ -1,4 +1,3 @@
-import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github } from "../assets";
@@ -14,10 +13,10 @@ const ProjectCard = ({
   image,
   source_code_link,
 }) => {
-  // Check if the project is in the third row (assuming 3 projects per row)
-  const isThirdRow = index >= 6;
-  const thirdRowWidth = "w-[260px]"; // Adjusted width for correct aspect ratio
-  const thirdRowHeight = "h-[445px]"; // Adjusted height for correct aspect ratio
+  // Check if the project is in the fourth row (assuming 3 projects per row)
+  const isFourthRow = index >= 9; // Changed from isThirdRow to isFourthRow
+  const fourthRowWidth = "w-[260px]"; // Adjusted width for correct aspect ratio
+  const fourthRowHeight = "h-[445px]"; // Adjusted height for correct aspect ratio
 
   return (
     <motion.div
@@ -28,22 +27,22 @@ const ProjectCard = ({
       {" "}
       <div
         className={`bg-tertiary ${
-          isThirdRow
-            ? "p-4 sm:w-[250px] mx-auto rounded-xl"
+          isFourthRow
+            ? "p-4 sm:w-[250px] mx-auto rounded-xl" // Changed from isThirdRow to isFourthRow
             : "p-5 sm:w-[360px] rounded-2xl"
         } w-full`}
         options={{ max: 45, scale: 1, speed: 450 }}
       >
         <div
           className={`relative w-full ${
-            isThirdRow ? "h-[430px]" : "h-[230px]"
+            isFourthRow ? "h-[430px]" : "h-[230px]" // Changed from isThirdRow to isFourthRow
           }`}
         >
           <img
             src={image}
             alt={name}
             className={`w-full h-full rounded-2xl ${
-              isThirdRow ? "rounded-x1" : "rounded-2x1"
+              isFourthRow ? "rounded-x1" : "rounded-2x1" // Changed from isThirdRow to isFourthRow
             } object-cover`}
           />
 
@@ -95,14 +94,14 @@ const Works = () => {
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {projects.slice(0, 6).map((project, index) => (
+        {projects.slice(0, 9).map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
 
-        {/* Wrap the third row in a flex container to keep it in one row */}
+        {/* Wrap the fourth row in a flex container to keep it in one row */}
         <div className="w-full flex justify-center gap-7">
-          {projects.slice(6).map((project, i) => (
-            <ProjectCard key={`project-${6 + i}`} index={6 + i} {...project} />
+          {projects.slice(9).map((project, i) => (
+            <ProjectCard key={`project-${9 + i}`} index={9 + i} {...project} />
           ))}
         </div>
       </div>
